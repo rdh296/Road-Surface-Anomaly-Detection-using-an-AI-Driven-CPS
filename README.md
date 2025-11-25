@@ -34,7 +34,9 @@ The notebook handles:
 Everything is inside one runnable .ipynb.
 
 Project Structure (Recommended)
+
 /
+
 ├── README.md
 ├── notebook.ipynb   ← Your uploaded notebook
 ├── technical_summary.pdf
