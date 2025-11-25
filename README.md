@@ -121,12 +121,15 @@ Fernández, A .(2022).Pothole Detection Dataset. Kaggle.
 https://www.kaggle.com/datasets/andrewmvd/pothole-detection
 
 Our complete Project can be viewed here: 
+
 https://drive.google.com/drive/folders/1yacWcX4WAx8_-HLBSeA6oCFF-VC2-Rzc?usp=sharing
 
 Team & Declaration
+
 We confirm that the work submitted (code, model, documentation, summary) is original and belongs to our team.
 
 Submission Notes
+
 This repository is intended for the Code Submission Deadline:
 25 November 2025 (11:59 PM IST)
 and corresponds to the Google Form submission:
