@@ -1,7 +1,9 @@
 Road Surface Anomaly Detection using an AI-Driven CPS
+
 A low-cost, camera-based system to detect potholes, cracks, and uneven road surfaces.
 
 Why This Project?
+
 Road inspections take a lot of time, money, and human effort. Most cities still rely on manual surveys or public complaints.
 We wanted to create something simple, practical, and affordable — a system that can look at road images and automatically detect potholes, cracks, and other damage.
 All you need is a camera + GPS + AI model.
@@ -17,6 +19,7 @@ Key Features
 •	Completely low-cost and easy to deploy
 
 How the System Works (Simple Overview)
+
 Camera → Capture Road Images → YOLOv8 Model → Detect Damage
          ↓                                ↓
        GPS (optional)               Annotated Image
@@ -29,6 +32,7 @@ The notebook handles:
 •	evaluation
 •	dashboard generation
 Everything is inside one runnable .ipynb.
+
 Project Structure (Recommended)
 /
 ├── README.md
@@ -55,13 +59,16 @@ Training is done inside the notebook using:
 •	optimizer: Adam / SGD
 •	metrics: mAP50, mAP50-95, Precision, Recall
 The notebook walks through the entire process.
+
 Dashboard & Output Files
+
 The notebook automatically creates:
 ✔ Annotated images
 ✔ A detections CSV
 ✔ An interactive Folium map (map.html)
 ✔ A simple dashboard (final_dashboard.html)
 These can be directly shown in the demo or uploaded to the repository.
+
 Dataset
 You can use:
 •	India Road Damage Dataset (IRDD)
@@ -69,9 +76,11 @@ You can use:
 •	Pothole-600
 •	Self-collected images
 Annotations were created using LabelImg / Roboflow and converted to YOLO format.
+
 If your dataset is too large, include:
 •	a small sample
 •	OR a link in the README
+
 How to Run
 1. Upload the Notebook to Google Colab
 Open notebook.ipynb in Colab and run all cells.
@@ -93,6 +102,7 @@ Future Extensions
 •	Drone imagery support
 •	Severity analysis of potholes
 •	Predictive road maintenance
+
 Technical Summary
 A 4-page humanized technical summary is included in the repo as:
 technical_summary.pdf
